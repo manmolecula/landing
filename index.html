@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__logo">
+                LOREMIPSUM.<span class="header__logo_text_highlight">NET</span>
+            </h1>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item header__nav-item_text_highlight">
+                        <a href="#" class="header__nav-link">БИЗНЕС</a>
+                    </li>                                       
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">О НАС</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">ЦЕНЫ</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">ОФОРМИТЬ ЗАКАЗ</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="intro">
+        <div class="intro__content">
+            <h2 class="intro__title">
+                <span class="intro__title_text_highlight">LOREM IPSUM</span> DOLOR SIT AMETCONSECTETUR <span class="intro__title_text_highlight">ADIPISCING</span>
+            </h2>
+            <h3 class="intro__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus!</h3>
+            <ul class="intro__list">
+                <li class="intro__list-item">- Totam rem aperiam eaque ipsa</li>
+                <li class="intro__list-item">- Sit voluptatem accusantium doloremque laudantium</li>
+                <li class="intro__list-item">- Sed ut perspiciatis, unde omnis iste natus error</li>
+            </ul>
+            <div class="intro__buttons">
+                <button class="intro__button intro__button_color_blue">ЗАКАЗАТЬ</button>
+                <button class="intro__button intro__button_color_white">ПОДРОБНЕЕ</button>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="gallery__content">
+            <h2 class="gallery__title">
+                ОФОРМЛЕНИЕ <span class="gallery__title_text_highlight">ЗАКАЗА</span>
+            </h2>
+            <h3 class="gallery__subtitle">Перед заполнением формы ознакомьтесь с нашей схемой работы!</h3>
+    
+            <div class="gallery__images">
+                <div class="gallery__item">
+                    <div class="gallery__image">
+                        <img src="./images/lense.svg" alt="Лупа">
+                    </div>
+                    <p class="gallery__text">Lorem ipsum dolor sit <br>amet</p>
+                </div>
+                <div class="gallery__item">
+                    <div class="gallery__image">
+                        <img src="./images/percent.svg" alt="Процент">
+                    </div>
+                    <p class="gallery__text">Сonsecteturadipiscing elit</p>
+                </div>
+                <div class="gallery__item">
+                    <div class="gallery__image">
+                        <img src="./images/document.svg" alt="Документ">
+                    </div>
+                    <p class="gallery__text">Sed do eiusmod tempor</p>
+                </div>
+                <div class="gallery__item">
+                    <div class="gallery__image">
+                        <img src="./images/mail.svg" alt="Письмо">
+                    </div>
+                    <p class="gallery__text">Esse cillum dolore eu <br>fugiat</p>
+                </div>
+                <div class="gallery__item">
+                    <div class="gallery__image">
+                        <img src="./images/money.svg" alt="Деньги">
+                    </div>
+                    <p class="gallery__text">Excepteur sint occaecat <br>cupidatat non proident</p>
+                </div>
+            </div>
+    
+            <!-- Форма -->
+            <form class="gallery__form">
+                <div class="gallery__form-fields">
+                    <select id="system-select" class="gallery__form-select">
+                        <option value="" disabled selected>Выберите вид системы</option>
+                        <option>Sed ut perspiciatis</option>
+                        <option>Nemo enim ipsam</option>
+                        <option>Et harum quidem</option>
+                        <option>Temporibus autem</option>
+                        <option>Itaque earum rerum</option>
+                    </select>
+              
+                    <input type="email" id="email" class="gallery__form-input" placeholder="Ваш email">
+              
+                    <input type="text" id="name" class="gallery__form-input" placeholder="Ваше имя">
+                </div>
+              
+                <div class="gallery__slider-container">
+                    <div class="gallery__slider-content">
+                        <div class="gallery__slider-header">
+                            <span class="gallery__slider-description">Sed ut perspiciatis, unde omnis iste natus</span>
+                            <span id="slider-value" class="gallery__slider-value">75%</span>
+                        </div>
+              
+                        <div class="gallery__slider-wrapper">
+                            <input type="range" id="slider" class="gallery__slider-slider" min="0" max="100" value="75">
+                        </div>
+                    </div>
+                    
+                    <input type="file" id="file-input" class="gallery__file-input">
+                    <label for="file-input" class="gallery__slider-button">
+                        <img src="./images/file.svg" alt="Иконка файла" class="gallery__slider-icon">
+                        <span>ПРИКРЕПИТЬ ФАЙЛ</span>
+                    </label>
+                </div>
+              
+                <button type="submit" class="gallery__submit-button">ОТПРАВИТЬ</button>
+            </form>                           
+        </div>
+    </section>    
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__left">
+                © 2018 «LOREMIPSUM.NET» Все права защищены.
+            </div>
+            <div class="footer__center">
+                <ul class="footer__links">
+                    <li class="footer__links-item">
+                        <a href="#" class="footer__link">
+                            <img src="./images/qiwi-icon.svg" alt="Qiwi icon" class="footer__link-icon">
+                            Qiwi wallet
+                        </a>
+                    </li>
+                    <li class="footer__links-item">
+                        <a href="#" class="footer__link">
+                            <img src="./images/yandex-icon.svg" alt="Yandex icon" class="footer__link-icon">
+                            Yandex Money
+                        </a>
+                    </li>
+                    <li class="footer__links-item">
+                        <a href="#" class="footer__link">
+                            <img src="./images/webmoney-icon.svg" alt="WebMoney icon" class="footer__link-icon">
+                            Web Money
+                        </a>
+                    </li>
+                </ul>              
+            </div>
+            <div class="footer__right">
+                <a href="mailto:info@ipsum228.com" class="footer__contact">
+                    <img src="./images/mail-icon.svg" alt="Mail icon" class="footer__link-icon">
+                    info@ipsum228.com
+                </a>
+                <a href="#" class="footer__contact">
+                    <img src="./images/vk-icon.svg" alt="VK icon" class="footer__link-icon">
+                    Мы вконтакте
+                </a>
+            </div>
+        </div>
+    </footer>               
+</body>
+</html>
